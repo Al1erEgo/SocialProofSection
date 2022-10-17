@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.subbody {
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    justify-content: center;
+}
+.social {
+    background-color: white;
+    width: 375px;
+    display: flex;
+    overflow: auto;
+}
+.social-container {
+    display: flex;
+    width: 100%;
+    margin: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.social-container-add {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social-container-text {
+    font-family: League Spartan;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+.social-container-text-title {
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: 700;
+}
+.social-container-text-info {
+    margin: 0%;
+}
+.social-container-stars {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social-container-stars-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social-container-stars-block-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.social-container-stars-block-text {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-family: League Spartan;
+    font-size: 14px;
+}
+.social-container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+}
+.social-container-cards-block {
+    display: flex;
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.social-container-cards-block-inner {
+    margin: 7%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.social-container-cards-block-inner-head {
+    display: flex;
+    width: 100%;
+}
+.social-container-cards-block-inner-head-img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.social-container-cards-block-inner-head-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.social-container-cards-block-inner-head-text-head {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+.social-container-cards-block-inner-head-text-body {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(333, 80%, 67%);
+}
+.social-container-cards-block-inner-body {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+@media (min-width: 500px) {
+    .social {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-container {
+        height: 90%;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+    .social-container-add {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .social-container-text {
+        font-family: League Spartan;
+        text-align: left;
+        color: hsl(300, 43%, 22%);
+        width: 40%;
+    }
+    .social-container-text-title {
+        font-size: 50px;
+    }
+    .social-container-stars {
+        height: 60%;
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+    }
+    .social-container-stars-block {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-container-stars-block:nth-child(1) {
+    margin-left: 0;
+    }
+    .social-container-stars-block:nth-child(2) {
+    margin-left: 20%;
+    }
+    .social-container-stars-block:nth-child(3) {
+    margin-left: 40%;
+    }
+    .social-container-stars-block-img {
+        margin-top: 0;
+    }
+    .social-container-stars-block-text {
+        margin-left: 5px;
+    }
+    .social-container-cards {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .social-container-cards-block {
+        width: 30%;
+    }
+    .social-container-cards-block:nth-child(2) {
+       margin-top: 2%; 
+    }
+    .social-container-cards-block:nth-child(3) {
+        margin-top: 4%;    
+    }
+}
